@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "I:/FIFO - VLSI Project/RTL Design/write_control_top/test_wr_control_isim_beh.exe" -prj "I:/FIFO - VLSI Project/RTL Design/write_control_top/test_wr_control_beh.prj" "work.test_wr_control" "work.glbl" 

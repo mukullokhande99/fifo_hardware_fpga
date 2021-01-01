@@ -1,0 +1,35 @@
+xst -intstyle ise -ifn "C:/Users/Mukul/Desktop/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_sigals.xst" -ofn "C:/Users/Mukul/Desktop/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_sigals.syr" 
+xst -intstyle ise -ifn "C:/Users/Mukul/Desktop/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_sigals.xst" -ofn "C:/Users/Mukul/Desktop/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_sigals.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fifo_top1_costr.ucf -p xc3s500e-fg320-5 "test_sigals.ngc" test_sigals.ngd  
+xst -intstyle ise -ifn "C:/Users/Mukul/Desktop/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_sigals.xst" -ofn "C:/Users/Mukul/Desktop/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_sigals.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fifo_top1_costr.ucf -p xc3s500e-fg320-5 "test_sigals.ngc" test_sigals.ngd  
+xst -intstyle ise -ifn "C:/Users/Mukul/Desktop/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_sigals.xst" -ofn "C:/Users/Mukul/Desktop/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_sigals.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fifo_top1_costr.ucf -p xc3s500e-fg320-5 "test_sigals.ngc" test_sigals.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o test_sigals_map.ncd test_sigals.ngd test_sigals.pcf 
+par -w -intstyle ise -ol high -t 1 test_sigals_map.ncd test_sigals.ncd test_sigals.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml test_sigals.twx test_sigals.ncd -o test_sigals.twr test_sigals.pcf -ucf fifo_top1_costr.ucf 
+bitgen -intstyle ise -f test_sigals.ut test_sigals.ncd 
+xst -intstyle ise -ifn "C:/Users/Mukul/Desktop/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_sigals.xst" -ofn "C:/Users/Mukul/Desktop/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_sigals.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fifo_top1_costr.ucf -p xc3s500e-fg320-5 "test_sigals.ngc" test_sigals.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o test_sigals_map.ncd test_sigals.ngd test_sigals.pcf 
+par -w -intstyle ise -ol high -t 1 test_sigals_map.ncd test_sigals.ncd test_sigals.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml test_sigals.twx test_sigals.ncd -o test_sigals.twr test_sigals.pcf -ucf fifo_top1_costr.ucf 
+bitgen -intstyle ise -f test_sigals.ut test_sigals.ncd 
+xst -intstyle ise -ifn "C:/Users/Mukul/Desktop/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_sigals.xst" -ofn "C:/Users/Mukul/Desktop/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_sigals.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fifo_top1_costr.ucf -p xc3s500e-fg320-5 "test_sigals.ngc" test_sigals.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o test_sigals_map.ncd test_sigals.ngd test_sigals.pcf 
+par -w -intstyle ise -ol high -t 1 test_sigals_map.ncd test_sigals.ncd test_sigals.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml test_sigals.twx test_sigals.ncd -o test_sigals.twr test_sigals.pcf -ucf fifo_top1_costr.ucf 
+bitgen -intstyle ise -f test_sigals.ut test_sigals.ncd 
+xst -intstyle ise -ifn "C:/Users/Mukul/Desktop/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_sigals.xst" -ofn "C:/Users/Mukul/Desktop/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_sigals.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fifo_top1_costr.ucf -p xc3s500e-fg320-5 "test_sigals.ngc" test_sigals.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o test_sigals_map.ncd test_sigals.ngd test_sigals.pcf 
+par -w -intstyle ise -ol high -t 1 test_sigals_map.ncd test_sigals.ncd test_sigals.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml test_sigals.twx test_sigals.ncd -o test_sigals.twr test_sigals.pcf -ucf fifo_top1_costr.ucf 
+bitgen -intstyle ise -f test_sigals.ut test_sigals.ncd 
+xst -intstyle ise -ifn "C:/Users/Mukul/Desktop/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_sigals.xst" -ofn "C:/Users/Mukul/Desktop/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_sigals.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fifo_top1_costr.ucf -p xc3s500e-fg320-5 "test_sigals.ngc" test_sigals.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o test_sigals_map.ncd test_sigals.ngd test_sigals.pcf 
+par -w -intstyle ise -ol high -t 1 test_sigals_map.ncd test_sigals.ncd test_sigals.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml test_sigals.twx test_sigals.ncd -o test_sigals.twr test_sigals.pcf -ucf fifo_top1_costr.ucf 
+bitgen -intstyle ise -f test_sigals.ut test_sigals.ncd 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Student/FIFO_top_1/flag_log_status_1.xst" -ofn "C:/Users/Student/FIFO_top_1/flag_log_status_1.syr" 

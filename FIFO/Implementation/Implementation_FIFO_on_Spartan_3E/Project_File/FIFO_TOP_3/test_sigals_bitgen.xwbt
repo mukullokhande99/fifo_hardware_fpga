@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Mukul\Desktop\FIFO - VLSI Project\RTL Design\FIFO_TOP_3\test_sigals.ncd
+OUTFILE=C:\Users\Mukul\Desktop\FIFO - VLSI Project\RTL Design\FIFO_TOP_3\test_sigals.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\Mukul\Desktop\FIFO - VLSI Project\RTL Design\FIFO_TOP_3
+LICENSE=WebPack
+USER_INFO=_

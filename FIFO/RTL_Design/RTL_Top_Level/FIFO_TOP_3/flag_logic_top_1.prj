@@ -1,0 +1,7 @@
+verilog work "../flag_logic/flag_logic_8/wr_ptr_diff.v"
+verilog work "../flag_logic/flag_logic_8/flag_logic_wr.v"
+verilog work "../flag_logic/flag_logic_7/rd_ptr_diff.v"
+verilog work "../flag_logic/flag_logic_7/rd_flag_logic.v"
+verilog work "../flag_logic/flag_logic_8/flag_top_wr.v"
+verilog work "../flag_logic/flag_logic_7/flag_logic_top_rd.v"
+verilog work "../flag_logic/flag_logic_top_1.v"

@@ -1,0 +1,4 @@
+verilog work "sync_basic_top_1.v"
+verilog work "gray_to_bin_top_1.v"
+verilog work "bin_to_gray_top_1.v"
+verilog work "wr_ptr_sync_top_1.v"

@@ -1,0 +1,756 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: fifo_top_1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "fifo_top_1.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "fifo_top_1"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : fifo_top_1
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\flag_logic\flag_logic_8\wr_ptr_diff.v" into library work
+Parsing module <wr_ptr_diff>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\flag_logic\flag_logic_8\flag_logic_wr.v" into library work
+Parsing module <flag_logic_wr>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\flag_logic\flag_logic_7\rd_ptr_diff.v" into library work
+Parsing module <rd_ptr_diff>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\flag_logic\flag_logic_7\rd_flag_logic.v" into library work
+Parsing module <rd_flag_logic>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\flag_logic\flag_logic_8\flag_top_wr.v" into library work
+Parsing module <flag_top_wr>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\flag_logic\flag_logic_7\flag_logic_top_rd.v" into library work
+Parsing verilog file "para.h" included at line 21.
+Parsing module <flag_logic_top_rd>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\sync_basic_top_1.v" into library work
+Parsing verilog file "para.h" included at line 19.
+Parsing module <sync_basic_top_1>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\gray_to_bin_top_1.v" into library work
+Parsing verilog file "para.h" included at line 21.
+Parsing module <gray_to_bin_top_1>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\dpsram_basic_top_1.v" into library work
+Parsing verilog file "para.h" included at line 21.
+Parsing module <dpsram_basic_top_1>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\bin_to_gray_top_1.v" into library work
+Parsing verilog file "para.h" included at line 21.
+Parsing module <bin_to_gray_top_1>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\binary_up_counter.v" into library work
+Parsing verilog file "para.h" included at line 21.
+Parsing module <binary_up_counter>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\flag_logic\flag_logic_top_1.v" into library work
+Parsing verilog file "para.h" included at line 21.
+Parsing module <flag_logic_top_1>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\wr_ptr_sync_top_1.v" into library work
+Parsing verilog file "para.h" included at line 21.
+Parsing module <wr_ptr_sync_top_1>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\write_control_top_1.v" into library work
+Parsing verilog file "para.h" included at line 21.
+Parsing module <write_control_top_1>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\read_control_top_1.v" into library work
+Parsing verilog file "para.h" included at line 21.
+Parsing module <read_control_top_1>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\rd_ptr_sync_top_1.v" into library work
+Parsing verilog file "para.h" included at line 21.
+Parsing module <rd_ptr_sync_top_1>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\dpsram_top_1.v" into library work
+Parsing verilog file "para.h" included at line 21.
+Parsing module <dpsram_top_1>.
+Analyzing Verilog file "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\fifo_top_1.v" into library work
+Parsing verilog file "para.h" included at line 22.
+Parsing module <fifo_top_1>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <fifo_top_1>.
+
+Elaborating module <dpsram_top_1>.
+
+Elaborating module <dpsram_basic_top_1>.
+
+Elaborating module <read_control_top_1>.
+
+Elaborating module <binary_up_counter>.
+
+Elaborating module <write_control_top_1>.
+
+Elaborating module <wr_ptr_sync_top_1>.
+
+Elaborating module <bin_to_gray_top_1>.
+
+Elaborating module <sync_basic_top_1>.
+
+Elaborating module <gray_to_bin_top_1>.
+
+Elaborating module <rd_ptr_sync_top_1>.
+
+Elaborating module <flag_logic_top_1>.
+
+Elaborating module <flag_logic_top_rd>.
+
+Elaborating module <rd_ptr_diff>.
+
+Elaborating module <rd_flag_logic>.
+
+Elaborating module <flag_top_wr>.
+
+Elaborating module <wr_ptr_diff>.
+
+Elaborating module <flag_logic_wr>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <fifo_top_1>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\fifo_top_1.v".
+INFO:Xst:3210 - "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\fifo_top_1.v" line 38: Output port <rd_ptr> of the instance <rd_ctrl_top> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\fifo_top_1.v" line 40: Output port <wr_ptr> of the instance <wr_ctrl_top> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <fifo_top_1> synthesized.
+
+Synthesizing Unit <dpsram_top_1>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\dpsram_top_1.v".
+INFO:Xst:3210 - "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\dpsram_top_1.v" line 38: Output port <data_out_port1> of the instance <memory> is unconnected or connected to loadless signal.
+    Found 1-bit tristate buffer for signal <idle_pin_2<7>> created at line 36
+    Found 1-bit tristate buffer for signal <idle_pin_2<6>> created at line 36
+    Found 1-bit tristate buffer for signal <idle_pin_2<5>> created at line 36
+    Found 1-bit tristate buffer for signal <idle_pin_2<4>> created at line 36
+    Found 1-bit tristate buffer for signal <idle_pin_2<3>> created at line 36
+    Found 1-bit tristate buffer for signal <idle_pin_2<2>> created at line 36
+    Found 1-bit tristate buffer for signal <idle_pin_2<1>> created at line 36
+    Found 1-bit tristate buffer for signal <idle_pin_2<0>> created at line 36
+    Summary:
+	inferred   8 Tristate(s).
+Unit <dpsram_top_1> synthesized.
+
+Synthesizing Unit <dpsram_basic_top_1>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\dpsram_basic_top_1.v".
+    Found 8x8-bit dual-port RAM <Mram_mem> for signal <mem>.
+    Found 8-bit register for signal <data_out_port2>.
+    Found 8-bit register for signal <data_out_port1>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  16 D-type flip-flop(s).
+Unit <dpsram_basic_top_1> synthesized.
+
+Synthesizing Unit <read_control_top_1>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\read_control_top_1.v".
+    Summary:
+	no macro.
+Unit <read_control_top_1> synthesized.
+
+Synthesizing Unit <binary_up_counter>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\binary_up_counter.v".
+    Found 4-bit register for signal <b_count_ptr>.
+    Found 4-bit adder for signal <b_count_ptr[3]_GND_13_o_add_1_OUT> created at line 38.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 D-type flip-flop(s).
+Unit <binary_up_counter> synthesized.
+
+Synthesizing Unit <write_control_top_1>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\write_control_top_1.v".
+    Summary:
+	no macro.
+Unit <write_control_top_1> synthesized.
+
+Synthesizing Unit <wr_ptr_sync_top_1>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\wr_ptr_sync_top_1.v".
+    Summary:
+	no macro.
+Unit <wr_ptr_sync_top_1> synthesized.
+
+Synthesizing Unit <bin_to_gray_top_1>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\bin_to_gray_top_1.v".
+    Summary:
+Unit <bin_to_gray_top_1> synthesized.
+
+Synthesizing Unit <sync_basic_top_1>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\sync_basic_top_1.v".
+    Found 3-bit register for signal <data_out>.
+    Found 3-bit register for signal <dff_1>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <sync_basic_top_1> synthesized.
+
+Synthesizing Unit <gray_to_bin_top_1>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\gray_to_bin_top_1.v".
+        a_length = 3
+    Summary:
+Unit <gray_to_bin_top_1> synthesized.
+
+Synthesizing Unit <rd_ptr_sync_top_1>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\FIFO_top_2\rd_ptr_sync_top_1.v".
+    Summary:
+	no macro.
+Unit <rd_ptr_sync_top_1> synthesized.
+
+Synthesizing Unit <flag_logic_top_1>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\flag_logic\flag_logic_top_1.v".
+    Summary:
+	no macro.
+Unit <flag_logic_top_1> synthesized.
+
+Synthesizing Unit <flag_logic_top_rd>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\flag_logic\flag_logic_7\flag_logic_top_rd.v".
+    Summary:
+	no macro.
+Unit <flag_logic_top_rd> synthesized.
+
+Synthesizing Unit <rd_ptr_diff>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\flag_logic\flag_logic_7\rd_ptr_diff.v".
+        config_depth = 3'b111
+        a_length = 3
+    Found 3-bit subtractor for signal <b_wr_ptr_sync[2]_b_rd_ptr[2]_sub_2_OUT> created at line 36.
+    Found 3-bit subtractor for signal <n0015> created at line 38.
+    Found 3-bit adder for signal <PWR_14_o_b_wr_ptr_sync[2]_add_3_OUT> created at line 38.
+    Found 3-bit comparator lessequal for signal <n0001> created at line 35
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <rd_ptr_diff> synthesized.
+
+Synthesizing Unit <rd_flag_logic>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\flag_logic\flag_logic_7\rd_flag_logic.v".
+        f_a_empty = 2
+        a_length = 3
+    Summary:
+Unit <rd_flag_logic> synthesized.
+
+Synthesizing Unit <flag_top_wr>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\flag_logic\flag_logic_8\flag_top_wr.v".
+        a_length = 3
+    Summary:
+	no macro.
+Unit <flag_top_wr> synthesized.
+
+Synthesizing Unit <wr_ptr_diff>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\flag_logic\flag_logic_8\wr_ptr_diff.v".
+        config_depth = 3'b111
+        a_length = 3
+    Found 3-bit subtractor for signal <b_wr_ptr[2]_b_rd_ptr_sync[2]_sub_2_OUT> created at line 37.
+    Found 3-bit subtractor for signal <n0015> created at line 40.
+    Found 3-bit adder for signal <PWR_18_o_b_wr_ptr[2]_add_3_OUT> created at line 40.
+    Found 3-bit comparator lessequal for signal <n0001> created at line 36
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <wr_ptr_diff> synthesized.
+
+Synthesizing Unit <flag_logic_wr>.
+    Related source file is "J:\FIFO - VLSI Project\RTL Design\flag_logic\flag_logic_8\flag_logic_wr.v".
+        f_a_full = 6
+        a_length = 3
+    Summary:
+Unit <flag_logic_wr> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 8x8-bit dual-port RAM                                 : 1
+# Adders/Subtractors                                   : 6
+ 3-bit addsub                                          : 2
+ 3-bit subtractor                                      : 2
+ 4-bit adder                                           : 2
+# Registers                                            : 8
+ 3-bit register                                        : 4
+ 4-bit register                                        : 2
+ 8-bit register                                        : 2
+# Comparators                                          : 2
+ 3-bit comparator lessequal                            : 2
+# Multiplexers                                         : 4
+ 3-bit 2-to-1 multiplexer                              : 4
+# Tristates                                            : 8
+ 1-bit tristate buffer                                 : 8
+# Xors                                                 : 10
+ 1-bit xor2                                            : 10
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <binary_up_counter>.
+The following registers are absorbed into counter <b_count_ptr>: 1 register on signal <b_count_ptr>.
+Unit <binary_up_counter> synthesized (advanced).
+
+Synthesizing (advanced) Unit <dpsram_basic_top_1>.
+INFO:Xst:3226 - The RAM <Mram_mem> will be implemented as a BLOCK RAM, absorbing the following register(s): <data_out_port2>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk_port1>     | rise     |
+    |     weA            | connected to signal <ctrl_port1_0>  | high     |
+    |     addrA          | connected to signal <addr_in_port1> |          |
+    |     diA            | connected to signal <data_in_port1> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk_port2>     | rise     |
+    |     enB            | connected to signal <en_port2>      | high     |
+    |     weB            | connected to signal <GND>           | high     |
+    |     addrB          | connected to signal <addr_in_port2> |          |
+    |     diB            | connected to signal <data_in_port2> |          |
+    |     doB            | connected to signal <data_out_port2> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <dpsram_basic_top_1> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 8x8-bit dual-port block RAM                           : 1
+# Adders/Subtractors                                   : 4
+ 3-bit addsub                                          : 2
+ 3-bit subtractor                                      : 2
+# Counters                                             : 2
+ 4-bit up counter                                      : 2
+# Registers                                            : 20
+ Flip-Flops                                            : 20
+# Comparators                                          : 2
+ 3-bit comparator lessequal                            : 2
+# Multiplexers                                         : 4
+ 3-bit 2-to-1 multiplexer                              : 4
+# Xors                                                 : 10
+ 1-bit xor2                                            : 10
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <data_out_port1_0> (without init value) has a constant value of 0 in block <dpsram_basic_top_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_out_port1_1> (without init value) has a constant value of 0 in block <dpsram_basic_top_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_out_port1_2> (without init value) has a constant value of 0 in block <dpsram_basic_top_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_out_port1_3> (without init value) has a constant value of 0 in block <dpsram_basic_top_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_out_port1_4> (without init value) has a constant value of 0 in block <dpsram_basic_top_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_out_port1_5> (without init value) has a constant value of 0 in block <dpsram_basic_top_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_out_port1_6> (without init value) has a constant value of 0 in block <dpsram_basic_top_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_out_port1_7> (without init value) has a constant value of 0 in block <dpsram_basic_top_1>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <fifo_top_1> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block fifo_top_1, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 20
+ Flip-Flops                                            : 20
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : fifo_top_1.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 37
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 6
+#      LUT3                        : 3
+#      LUT4                        : 2
+#      LUT5                        : 5
+#      LUT6                        : 16
+#      MUXF7                       : 2
+#      VCC                         : 1
+# FlipFlops/Latches                : 20
+#      FDC                         : 20
+# RAMS                             : 1
+#      RAMB8BWER                   : 1
+# Clock Buffers                    : 2
+#      BUFGP                       : 2
+# IO Buffers                       : 23
+#      IBUF                        : 11
+#      OBUF                        : 12
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              20  out of  11440     0%  
+ Number of Slice LUTs:                   33  out of   5720     0%  
+    Number used as Logic:                33  out of   5720     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     39
+   Number with an unused Flip Flop:      19  out of     39    48%  
+   Number with an unused LUT:             6  out of     39    15%  
+   Number of fully used LUT-FF pairs:    14  out of     39    35%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          25
+ Number of bonded IOBs:                  25  out of    102    24%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of     32     3%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+wr_clk                             | BUFGP                  | 11    |
+rd_clk                             | BUFGP                  | 11    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.560ns (Maximum Frequency: 280.871MHz)
+   Minimum input arrival time before clock: 4.542ns
+   Maximum output required time after clock: 6.054ns
+   Maximum combinational path delay: 6.129ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'wr_clk'
+  Clock period: 3.481ns (frequency: 287.253MHz)
+  Total number of paths / destination ports: 57 / 12
+-------------------------------------------------------------------------
+Delay:               3.481ns (Levels of Logic = 2)
+  Source:            rd_sync_top/sync_2/data_out_2 (FF)
+  Destination:       sram_top/memory/Mram_mem (RAM)
+  Source Clock:      wr_clk rising
+  Destination Clock: wr_clk rising
+
+  Data Path: rd_sync_top/sync_2/data_out_2 to sram_top/memory/Mram_mem
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.447   1.015  rd_sync_top/sync_2/data_out_2 (rd_sync_top/sync_2/data_out_2)
+     LUT6:I0->O            6   0.203   0.745  f_full1_SW0 (N14)
+     LUT5:I4->O            2   0.205   0.616  tmp_wr_in1 (tmp_wr_in)
+     RAMB8BWER:WEAWEL0         0.250          sram_top/memory/Mram_mem
+    ----------------------------------------
+    Total                      3.481ns (1.105ns logic, 2.376ns route)
+                                       (31.7% logic, 68.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'rd_clk'
+  Clock period: 3.560ns (frequency: 280.871MHz)
+  Total number of paths / destination ports: 78 / 11
+-------------------------------------------------------------------------
+Delay:               3.560ns (Levels of Logic = 2)
+  Source:            rd_ctrl_top/i_2/b_count_ptr_2 (FF)
+  Destination:       sram_top/memory/Mram_mem (RAM)
+  Source Clock:      rd_clk rising
+  Destination Clock: rd_clk rising
+
+  Data Path: rd_ctrl_top/i_2/b_count_ptr_2 to sram_top/memory/Mram_mem
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              9   0.447   1.058  rd_ctrl_top/i_2/b_count_ptr_2 (rd_ctrl_top/i_2/b_count_ptr_2)
+     LUT5:I2->O            6   0.205   0.849  f_empty1_SW3 (N16)
+     LUT6:I4->O            1   0.203   0.579  tmp_rd_in1 (tmp_rd_in)
+     RAMB8BWER:ENBRDEN         0.220          sram_top/memory/Mram_mem
+    ----------------------------------------
+    Total                      3.560ns (1.075ns logic, 2.485ns route)
+                                       (30.2% logic, 69.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'wr_clk'
+  Total number of paths / destination ports: 30 / 24
+-------------------------------------------------------------------------
+Offset:              3.999ns (Levels of Logic = 2)
+  Source:            reset_n (PAD)
+  Destination:       rd_sync_top/sync_2/data_out_2 (FF)
+  Destination Clock: wr_clk rising
+
+  Data Path: reset_n to rd_sync_top/sync_2/data_out_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            18   1.222   1.049  reset_n_IBUF (reset_n_IBUF)
+     INV:I->O             20   0.206   1.092  rd_sync_top/sync_2/reset_n_inv1_INV_0 (rd_sync_top/sync_2/reset_n_inv)
+     FDC:CLR                   0.430          rd_sync_top/sync_2/dff_1_0
+    ----------------------------------------
+    Total                      3.999ns (1.858ns logic, 2.141ns route)
+                                       (46.5% logic, 53.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'rd_clk'
+  Total number of paths / destination ports: 24 / 15
+-------------------------------------------------------------------------
+Offset:              4.542ns (Levels of Logic = 3)
+  Source:            reset_n (PAD)
+  Destination:       sram_top/memory/Mram_mem (RAM)
+  Destination Clock: rd_clk rising
+
+  Data Path: reset_n to sram_top/memory/Mram_mem
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            18   1.222   1.154  reset_n_IBUF (reset_n_IBUF)
+     LUT2:I0->O            2   0.203   0.961  tmp_rd_in1_rstpot (tmp_rd_in1_rstpot)
+     LUT6:I1->O            1   0.203   0.579  tmp_rd_in1 (tmp_rd_in)
+     RAMB8BWER:ENBRDEN         0.220          sram_top/memory/Mram_mem
+    ----------------------------------------
+    Total                      4.542ns (1.848ns logic, 2.694ns route)
+                                       (40.7% logic, 59.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'rd_clk'
+  Total number of paths / destination ports: 32 / 11
+-------------------------------------------------------------------------
+Offset:              6.054ns (Levels of Logic = 3)
+  Source:            rd_ctrl_top/i_2/b_count_ptr_2 (FF)
+  Destination:       f_empty (PAD)
+  Source Clock:      rd_clk rising
+
+  Data Path: rd_ctrl_top/i_2/b_count_ptr_2 to f_empty
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              9   0.447   1.058  rd_ctrl_top/i_2/b_count_ptr_2 (rd_ctrl_top/i_2/b_count_ptr_2)
+     LUT5:I2->O            6   0.205   0.992  f_empty1_SW4 (N17)
+     LUT6:I2->O            1   0.203   0.579  f_empty2 (f_empty_OBUF)
+     OBUF:I->O                 2.571          f_empty_OBUF (f_empty)
+    ----------------------------------------
+    Total                      6.054ns (3.426ns logic, 2.628ns route)
+                                       (56.6% logic, 43.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'wr_clk'
+  Total number of paths / destination ports: 19 / 3
+-------------------------------------------------------------------------
+Offset:              5.993ns (Levels of Logic = 3)
+  Source:            rd_sync_top/sync_2/data_out_2 (FF)
+  Destination:       f_full (PAD)
+  Source Clock:      wr_clk rising
+
+  Data Path: rd_sync_top/sync_2/data_out_2 to f_full
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.447   1.015  rd_sync_top/sync_2/data_out_2 (rd_sync_top/sync_2/data_out_2)
+     LUT6:I0->O            6   0.203   0.973  f_full1_SW0 (N14)
+     LUT4:I1->O            1   0.205   0.579  f_full2 (f_full_OBUF)
+     OBUF:I->O                 2.571          f_full_OBUF (f_full)
+    ----------------------------------------
+    Total                      5.993ns (3.426ns logic, 2.567ns route)
+                                       (57.2% logic, 42.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 6 / 4
+-------------------------------------------------------------------------
+Delay:               6.129ns (Levels of Logic = 4)
+  Source:            reset_n (PAD)
+  Destination:       f_almost_full (PAD)
+
+  Data Path: reset_n to f_almost_full
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            18   1.222   1.414  reset_n_IBUF (reset_n_IBUF)
+     LUT6:I0->O            1   0.203   0.000  f_almost_full_G (N40)
+     MUXF7:I1->O           1   0.140   0.579  f_almost_full (f_almost_full_OBUF)
+     OBUF:I->O                 2.571          f_almost_full_OBUF (f_almost_full)
+    ----------------------------------------
+    Total                      6.129ns (4.136ns logic, 1.993ns route)
+                                       (67.5% logic, 32.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock rd_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+rd_clk         |    3.560|         |         |         |
+wr_clk         |    3.012|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock wr_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+rd_clk         |    2.647|         |         |         |
+wr_clk         |    3.481|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.13 secs
+ 
+--> 
+
+Total memory usage is 4509240 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

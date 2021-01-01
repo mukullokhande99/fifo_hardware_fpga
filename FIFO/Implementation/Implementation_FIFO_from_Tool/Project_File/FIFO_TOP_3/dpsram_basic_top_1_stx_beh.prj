@@ -1,0 +1,2 @@
+verilog isim_temp "dpsram_basic_top_1.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

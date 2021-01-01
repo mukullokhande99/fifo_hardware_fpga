@@ -1,0 +1,53 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_bench3_isim_beh.exe" -prj "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_bench3_beh.prj" "work.test_bench3" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/../flag_logic/flag_logic_8/wr_ptr_diff.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/../flag_logic/flag_logic_8/flag_logic_wr.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/../flag_logic/flag_logic_7/rd_ptr_diff.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/../flag_logic/flag_logic_7/rd_flag_logic.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/../flag_logic/flag_logic_8/flag_top_wr.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/../flag_logic/flag_logic_7/flag_logic_top_rd.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/sync_basic_top_1.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/gray_to_bin_top_1.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/dpsram_basic_top_1.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/bin_to_gray_top_1.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/binary_up_counter.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/../flag_logic/flag_logic_top_1.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/wr_ptr_sync_top_1.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/write_control_top_1.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/read_control_top_1.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/rd_ptr_sync_top_1.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/dpsram_top_1.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/fifo_top_1.v" into library work
+Analyzing Verilog file "H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_bench3.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module dpsram_basic_top_1
+Compiling module dpsram_top_1
+Compiling module binary_up_counter
+Compiling module read_control_top_1
+Compiling module write_control_top_1
+Compiling module bin_to_gray_top_1
+Compiling module sync_basic_top_1
+Compiling module gray_to_bin_top_1
+Compiling module wr_ptr_sync_top_1
+Compiling module rd_ptr_sync_top_1
+Compiling module rd_ptr_diff
+Compiling module rd_flag_logic
+Compiling module flag_logic_top_rd
+Compiling module wr_ptr_diff
+Compiling module flag_logic_wr
+Compiling module flag_top_wr
+Compiling module flag_logic_top_1
+Compiling module fifo_top_1
+Compiling module test_bench3
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 20 Verilog Units
+Built simulation executable H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/test_bench3_isim_beh.exe
+Fuse Memory Usage: 28536 KB
+Fuse CPU Usage: 717 ms

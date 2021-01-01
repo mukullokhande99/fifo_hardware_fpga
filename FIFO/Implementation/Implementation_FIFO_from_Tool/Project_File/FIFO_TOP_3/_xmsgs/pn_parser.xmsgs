@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/bin_to_gray_top_1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/bin_to_gray_top_1.v</arg>&quot; Line <arg fmt="%d" index="2">4</arg>. <arg fmt="%s" index="3">Include file found: &apos;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/para.h&apos; in file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/bin_to_gray_top_1.v&quot; line 4
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/binary_up_counter.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/binary_up_counter.v</arg>&quot; Line <arg fmt="%d" index="2">8</arg>. <arg fmt="%s" index="3">Include file found: &apos;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/para.h&apos; in file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/binary_up_counter.v&quot; line 8
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/dpsram_basic_top_1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/dpsram_basic_top_1.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/para.h&apos; in file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/dpsram_basic_top_1.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/dpsram_top_1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/dpsram_top_1.v</arg>&quot; Line <arg fmt="%d" index="2">16</arg>. <arg fmt="%s" index="3">Include file found: &apos;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/para.h&apos; in file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/dpsram_top_1.v&quot; line 16
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/fifo_top_1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/fifo_top_1.v</arg>&quot; Line <arg fmt="%d" index="2">15</arg>. <arg fmt="%s" index="3">Include file found: &apos;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/para.h&apos; in file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/fifo_top_1.v&quot; line 15
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/gray_to_bin_top_1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/gray_to_bin_top_1.v</arg>&quot; Line <arg fmt="%d" index="2">4</arg>. <arg fmt="%s" index="3">Include file found: &apos;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/para.h&apos; in file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/gray_to_bin_top_1.v&quot; line 4
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/rd_ptr_sync_top_1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/rd_ptr_sync_top_1.v</arg>&quot; Line <arg fmt="%d" index="2">16</arg>. <arg fmt="%s" index="3">Include file found: &apos;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/para.h&apos; in file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/rd_ptr_sync_top_1.v&quot; line 16
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/read_control_top_1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/read_control_top_1.v</arg>&quot; Line <arg fmt="%d" index="2">16</arg>. <arg fmt="%s" index="3">Include file found: &apos;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/para.h&apos; in file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/read_control_top_1.v&quot; line 16
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/sync_basic_top_1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/sync_basic_top_1.v</arg>&quot; Line <arg fmt="%d" index="2">3</arg>. <arg fmt="%s" index="3">Include file found: &apos;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/para.h&apos; in file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/sync_basic_top_1.v&quot; line 3
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/wr_ptr_sync_top_1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/wr_ptr_sync_top_1.v</arg>&quot; Line <arg fmt="%d" index="2">16</arg>. <arg fmt="%s" index="3">Include file found: &apos;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/para.h&apos; in file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/wr_ptr_sync_top_1.v&quot; line 16
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/write_control_top_1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/write_control_top_1.v</arg>&quot; Line <arg fmt="%d" index="2">16</arg>. <arg fmt="%s" index="3">Include file found: &apos;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/para.h&apos; in file &quot;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/write_control_top_1.v&quot; line 16
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/flag_logic/flag_logic_7/flag_logic_top_rd.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">H:/FIFO - VLSI Project/RTL Design/flag_logic/flag_logic_7/flag_logic_top_rd.v</arg>&quot; Line <arg fmt="%d" index="2">5</arg>. <arg fmt="%s" index="3">Include file found: &apos;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/para.h&apos; in file &quot;H:/FIFO - VLSI Project/RTL Design/flag_logic/flag_logic_7/flag_logic_top_rd.v&quot; line 5
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/flag_logic/flag_logic_7/rd_flag_logic.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/flag_logic/flag_logic_7/rd_ptr_diff.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/flag_logic/flag_logic_8/flag_logic_wr.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/flag_logic/flag_logic_8/flag_top_wr.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/flag_logic/flag_logic_8/wr_ptr_diff.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;H:/FIFO - VLSI Project/RTL Design/flag_logic/flag_logic_top_1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">H:/FIFO - VLSI Project/RTL Design/flag_logic/flag_logic_top_1.v</arg>&quot; Line <arg fmt="%d" index="2">16</arg>. <arg fmt="%s" index="3">Include file found: &apos;H:/FIFO - VLSI Project/RTL Design/FIFO_TOP_3/para.h&apos; in file &quot;H:/FIFO - VLSI Project/RTL Design/flag_logic/flag_logic_top_1.v&quot; line 16
+</arg>
+</msg>
+
+</messages>
+

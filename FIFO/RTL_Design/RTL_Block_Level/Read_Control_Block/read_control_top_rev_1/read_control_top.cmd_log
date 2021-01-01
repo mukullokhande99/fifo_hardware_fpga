@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/Student/read_control_top/read_control_top.xst" -ofn "C:/Users/Student/read_control_top/read_control_top.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/read_control_top/read_control_top.xst" -ofn "C:/Users/Student/read_control_top/read_control_top.syr" 
+xst -intstyle ise -ifn "C:/Users/ADMIN/Desktop/read_control_top/read_control_top.xst" -ofn "C:/Users/ADMIN/Desktop/read_control_top/read_control_top.syr" 
+xst -intstyle ise -ifn "C:/Users/ADMIN/Desktop/read_control_top/read_control_top.xst" -ofn "C:/Users/ADMIN/Desktop/read_control_top/read_control_top.syr" 
+xst -intstyle ise -ifn "C:/Users/ADMIN/Desktop/read_control_top/read_control_top.xst" -ofn "C:/Users/ADMIN/Desktop/read_control_top/read_control_top.syr" 
+xst -intstyle ise -ifn "K:/FIFO - VLSI Project/RTL Design/read_control_top/read_control_top.xst" -ofn "K:/FIFO - VLSI Project/RTL Design/read_control_top/read_control_top.syr" 
+xst -intstyle ise -ifn "I:/FIFO - VLSI Project/RTL Design/read_control_top/read_control_top.xst" -ofn "I:/FIFO - VLSI Project/RTL Design/read_control_top/read_control_top.syr" 
