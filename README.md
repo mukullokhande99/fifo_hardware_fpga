@@ -39,3 +39,7 @@ construction of RTL model using applicable basic blocks like flipflops and latch
 which is represented with verilog code.
 The only drawback of the presented asynchronous FIFO design is inefficient as timing
 model constructed using circuit level. (Output is one cycle delayed in flag model).
+
+
+![IMG_20191009_230158](https://user-images.githubusercontent.com/36757243/119394484-d748a500-bcef-11eb-82cd-0a2905b4072a.jpg)
+
